@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Convite para o meu aniversario</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/main.scss">
+    </head>
+
+    <body>
+        <header class="hero">
+            <div class="container">
+                <img class="hero__logo" src="./images/birthday-cake.png" alt="Cake">
+                <p class="hero__text">O meu aniversário!</p>
+                <p class="hero__text">Confirme presença neste dia tão especial!</p>
+                <p class="hero__text">Faltam: <span id="contador"></span></p>
+                <div class="infos-bar">
+                    <ul class="infos-bar__infos">
+                        <li class="infos-bar__infos__item">
+                            <b>Localização</b>
+                            Aleja Wojska Polskiego, 31
+                        </li>
+                        <li class="infos-bar__infos__item">
+                            <b>Tipo de fantasia?
+                            </b>
+                            Anos 80!
+                        </li>
+                        <li class="infos-bar__infos__item">
+                            <b>Quando será?</b>
+                            21 de setembro
+                        </li>
+                    </ul>
+                    <a href="#" class="button button--primary">Confirme sua presenca</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="event event--present">
+            <div class="container" data-aos="fade-rigth">
+                <div class="event__details">
+                    <h2 class="event__details__title">
+                        Presente
+                    </h2>
+                    <p class="event__details__description">
+                        Para aqueles que conhecem um pouco do gosto do anfitrião, traga em uma embalagem bem
+                        descolada!
+                        <br><br>
+                        Mas se tiver em duvida, traga o valor dentro de um envelope, que na entrada do salão, teremos
+                        uma caixa para você depositar!
+                    </p>
+                </div>
+                <img class="event__image" src="./images/img-present.jpg" alt="Caixa de Presente">
+            </div>
+        </section>
+
+        <section class="event event--fantasy event--image-left">
+            <div class="container" data-aos="fade-left">
+                <div class="event__details">
+                    <h2 class="event__details__title">
+                        Fantasias
+                    </h2>
+                    <p class="event__details__description">
+                        O tema escolhido foi "Anos 80". Então se você tem alguma dúvida, entre em contato com o
+                        responsável, pois assim juntos, podemos encontrar algo que trará mais alegria pra este dia
+                        especial!<br><br>
+                        As músicas, a decoração e todos os convidados nos trará um ar de nostalgia e saudades destes
+                        anos mágicos!
+                    </p>
+                </div>
+                <img class="event__image" src="./images/img-fantasy.jpg" alt="Fantasia">
+            </div>
+        </section>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+
+        </script>
+        <script src="scripts/main.js"></script>
+    </body>
+
+</html>

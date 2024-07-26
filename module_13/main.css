@@ -1,0 +1,72 @@
+html {
+    background-color: black;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+header h1 {
+    font-weight: 300;
+    font-style: normal;
+    color: aquamarine;
+}
+
+
+.nav-item a {
+    text-align: center;
+    color: aquamarine;
+}
+
+.nav-item a:hover {
+    color: azure;
+    background-color: rgba(127, 255, 212, 0.188);
+}
+
+.navbar {
+    border-bottom: 1px solid #ccc;
+}
+
+#grid {
+    margin-top: 10em;
+}
+
+#grid h2 {
+    margin-bottom: 2em;
+    font-size: 3em;
+}
+
+footer {
+    margin-top: 3rem;
+    background-color: black;
+    color: aquamarine;
+}
+
+footer a {
+    color: aquamarine;
+    font-style: oblique;
+}
+
+footer a:hover {
+    color: rgb(127, 140, 255);
+    font-style: oblique;
+}
+
+
+.col-sm-12,
+.col-md-6,
+.col-lg-4 {
+    margin-bottom: 2rem;
+}
